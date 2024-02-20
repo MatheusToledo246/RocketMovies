@@ -8,7 +8,7 @@ export const Container = styled.header`
 
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
+    border-bottom-color: ${({ theme }) => theme.COLORS.GRAY_100};
 
     display: flex;
     justify-content: space-between;
@@ -33,9 +33,12 @@ export const Profile = styled.div`
         margin-left: 16px;
         line-height: 24px;
 
-        span {
+        button {
             font-size: 14px;
             color: ${({ theme }) => theme.COLORS.GRAY_100};
+            background: none;
+            border: none;
+            width: 28px;
         }
 
         strong {
@@ -43,4 +46,9 @@ export const Profile = styled.div`
             color: ${({ theme }) => theme.COLORS.WHITE};
         }   
     }
+`;
+
+export const Logo = styled.div`
+    display: flex;
+    align-items: center;
 `;

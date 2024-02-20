@@ -1,8 +1,15 @@
-import {Container, Profile} from './styles';
+import {Container, Profile, Logo } from './styles';
 
 export function Header(){
     return(
         <Container>
+            <Logo>
+            <img 
+                src="../../../src/img/logo.svg" 
+                alt="Logo do site" 
+            />
+            </Logo>
+
             <Profile>
             <img 
                 src="https://github.com/MatheusToledo246.png" 
@@ -11,9 +18,12 @@ export function Header(){
 
             <div>
                 <strong>Matheus Toledo</strong>
-                <span>Sair</span>
+                <button>
+                    Sair
+                </button>
             </div>
             </Profile>
+            
         </Container>
     )
 }
