@@ -1,8 +1,12 @@
+import { Container, Profile, Content, ArrowLeft, Stars, Tags } from './styles';
+
 import { FiArrowLeft, FiClock } from 'react-icons/fi';
 import { RiStarFill, RiStarLine } from 'react-icons/ri'
-import { Container, Profile, Content, ArrowLeft, Stars } from './styles';
+
 import { Header } from '../../components/Header';
 import { ButtonText } from '../../components/ButtonText';
+import { Tag } from '../../components/Tags';
+
 
 
 export function Details() {
@@ -29,7 +33,6 @@ export function Details() {
         <RiStarLine />
         </Stars>
         
-
         <Profile >
         <img 
             src="https://github.com/MatheusToledo246.png" 
@@ -39,6 +42,14 @@ export function Details() {
           <FiClock />
           <p>23/05/22 ás 08:00</p>
         </Profile> 
+
+        <Tags>
+          <Tag title="Ficção Científica" />
+          < Tag title="Drama" />
+          <Tag title="Família" />
+        </Tags>
+
+
         
         <p>
         Pragas nas colheitas fizeram a civilização humana regredir para uma sociedade agrária em futuro de data desconhecida. Cooper, ex-piloto da NASA, 

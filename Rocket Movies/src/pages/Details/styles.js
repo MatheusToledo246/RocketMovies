@@ -91,3 +91,12 @@ export const ArrowLeft = styled.button`
     }
 
 `;
+
+export const Tags = styled.div`
+    display: flex;
+    margin: 40px 0;
+    gap: 8px;
+    > :first-child {
+        margin-left: 0;
+    }
+`;
