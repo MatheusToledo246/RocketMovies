@@ -7,6 +7,8 @@ export default {
       BACKGROUND_BUTTON: "0D0C0F",
       
       RED: "#FF859B",
+      RED_900: "RGB(255, 133, 155, 5%)",
+
       
       GRAY_100: "#948F99",
       GRAY_300: "#999591",
