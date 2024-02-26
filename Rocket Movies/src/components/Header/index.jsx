@@ -1,4 +1,5 @@
-import {Container, Profile, Logo } from './styles';
+import {Container, Profile, Logo, Search } from './styles';
+import { Input } from '../../components/Input';
 
 export function Header(){
     return(
@@ -10,18 +11,21 @@ export function Header(){
             />
             </Logo>
 
-            <Profile>
-            <img 
-                src="https://github.com/MatheusToledo246.png" 
-                alt="Foto do Usuário" 
-            />
+            <Search>
+                <Input placeholder="Pesquisar pelo título"/>
+            </Search>
 
+            <Profile>
             <div>
                 <strong>Matheus Toledo</strong>
                 <button>
                     Sair
                 </button>
             </div>
+            <img 
+                src="https://github.com/MatheusToledo246.png" 
+                alt="Foto do Usuário" 
+            />
             </Profile>
             
         </Container>

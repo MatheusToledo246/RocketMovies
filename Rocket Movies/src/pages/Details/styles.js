@@ -40,7 +40,6 @@ export const Content = styled.div`
 
 export const Stars = styled.div`
     display: flex;
-    padding-top: 24px;
     align-items: center;
     gap: 10px;
 
@@ -50,11 +49,6 @@ export const Stars = styled.div`
         margin-right: 19px;
     }
 
-    > svg {
-        color: ${({ theme }) => theme.COLORS.RED};
-        width: 20px;
-        height: 20px;
-    }
 `;
 
 export const Profile = styled.div`

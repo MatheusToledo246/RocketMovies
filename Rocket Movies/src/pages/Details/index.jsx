@@ -6,6 +6,8 @@ import { RiStarFill, RiStarLine } from 'react-icons/ri'
 import { Header } from '../../components/Header';
 import { ButtonText } from '../../components/ButtonText';
 import { Tag } from '../../components/Tags';
+import { Star } from '../../components/Star';
+
 
 
 
@@ -26,11 +28,7 @@ export function Details() {
         <h1>
           Interestellar
         </h1>
-        <RiStarFill />
-        <RiStarFill />
-        <RiStarFill />
-        <RiStarFill />
-        <RiStarLine />
+        <Star />
         </Stars>
         
         <Profile >

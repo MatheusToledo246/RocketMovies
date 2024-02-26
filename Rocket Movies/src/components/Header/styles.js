@@ -16,7 +16,11 @@ export const Container = styled.header`
     padding: 0 80px;
 
 `;
+export const Search = styled.div`
+    width: 100%;
+    padding: 30px 64px 0;
 
+`;
 export const Profile = styled.div`
     display: flex;
     align-items: center;
@@ -28,10 +32,13 @@ export const Profile = styled.div`
     }
 
     > div {
+        width: 155px;
         display: flex;
         flex-direction: column;
         margin-left: 16px;
         line-height: 24px;
+        align-items: end;
+        margin-right: 9px;
 
         button {
             font-size: 14px;
@@ -40,6 +47,7 @@ export const Profile = styled.div`
             border: none;
             width: 28px;
         }
+
 
         strong {
             font-size: 18px;
