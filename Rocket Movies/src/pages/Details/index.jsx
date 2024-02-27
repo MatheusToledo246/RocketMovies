@@ -1,7 +1,6 @@
 import { Container, Profile, Content, ArrowLeft, Stars, Tags } from './styles';
 
 import { FiArrowLeft, FiClock } from 'react-icons/fi';
-import { RiStarFill, RiStarLine } from 'react-icons/ri'
 
 import { Header } from '../../components/Header';
 import { ButtonText } from '../../components/ButtonText';
