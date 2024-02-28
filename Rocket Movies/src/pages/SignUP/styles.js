@@ -41,6 +41,7 @@ export const Form = styled.form`
 
         svg {
             margin-right: 8px;
+            font-size: 16px;
     }
     }
 

@@ -6,13 +6,13 @@ import theme from './styles/theme.js'
 
 import GlobalStyle from './styles/global.js';
 
-import { SignUP } from './pages/SignUP'
+import { Profile } from './pages/Profile'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
     <GlobalStyle />
-    <SignUP />
+    <Profile />
     </ThemeProvider>
   </React.StrictMode>
 )
