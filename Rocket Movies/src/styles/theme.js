@@ -4,7 +4,7 @@ export default {
       BACKGROUND_700: "#312E38",
       BACKGROUND_500: "#262529",
       BACKGROUND_100: "#282124",
-      BACKGROUND_BUTTON: "0D0C0F",
+      BACKGROUND_BUTTON: "#0D0C0F",
       
       RED: "#FF859B",
       RED_900: "RGB(255, 133, 155, 5%)",

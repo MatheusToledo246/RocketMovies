@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import { Link } from 'react-router-dom';
+
 
 export const Container = styled.div`
 
@@ -19,7 +21,7 @@ export const Content = styled.div`
     overflow-y: auto;
 
 `;
-export const NewNote = styled.button`
+export const NewNote = styled(Link)`
     width: 207px;
     height: 48px;
     

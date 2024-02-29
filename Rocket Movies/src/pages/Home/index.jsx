@@ -1,4 +1,4 @@
-import {Container, Brand, Content, NewNote, Tags} from './styles'
+import {Container, Brand, Content, NewNote} from './styles'
 import { Header } from '../../components/Header';
 import {FiPlus} from 'react-icons/fi'
 
@@ -13,7 +13,7 @@ export function Home() {
 
             <Brand>
                 <h1>Meus filmes</h1>
-                <NewNote>
+                <NewNote to="/new">
                     <FiPlus />
                     <p>Adicinar filme</p>
                 </NewNote>

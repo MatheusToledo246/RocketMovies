@@ -18,7 +18,7 @@ export function Details() {
       <main>
         <Content>
 
-        <ArrowLeft>
+        <ArrowLeft to="/">
           <FiArrowLeft />
           <ButtonText title="Voltar"/>
         </ArrowLeft>

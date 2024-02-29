@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import { Link } from 'react-router-dom';
+
 
 export const Container = styled.div`
     width: 100%;
@@ -72,7 +74,7 @@ export const Profile = styled.div`
     }
 `;
 
-export const ArrowLeft = styled.button`
+export const ArrowLeft = styled(Link)`
     display: flex;
     align-items: center;
     border: none;
